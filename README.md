@@ -149,5 +149,49 @@ biztoso-marketplace/
 ```bash
 git clone https://github.com/yourusername/biztoso-marketplace.git
 cd biztoso-marketplace
+cd frontend
+Run npm install
+startfrontend npm run dev
+# Frontend runs on http://localhost:5173
+cd backend
+Run npm install
+npm run dev
+# Backend runs on http://localhost:5000
+
+```
+
+
+**How to Use***
+
+Home Page: Navigate between Listings, Chat, and Profile pages using the intuitive UI.
+Marketplace: Add, edit, and delete listings with image support.
+Chat Module: Experience real-time messaging with dynamic updates.
+Profile Management: Create and edit your profile with image uploads.
+Theme Toggle: Switch between light and dark modes using the toggle button.
+
+
+Challenges & Solutions
+1. Real-Time Messaging:
+Challenge: Handling network interruptions in Socket.IO.
+Solution: Implemented reconnection logic and error handling.
+2. Form Handling:
+Challenge: Managing image previews and form resets.
+Solution: Created a custom ImageInput component and used React Hook Form.
+3. Theme Management:
+Challenge: Ensuring smooth transitions between dark/light modes.
+Solution: Utilized React Context API and localStorage for theme persistence.
+🚀 Additional Features (Optional)
+Code Splitting: All pages are lazily loaded, improving initial load times.
+Custom Hooks: useFetch for API calls and useFilteredLeads for dynamic filtering.
+UI Enhancements: Hover effects, responsive cards, and dynamic icons.
+🛠 Future Improvements
+Implement advanced state management using Redux Async Thunks.
+Enhance real-time chat with typing indicators and message read status.
+Introduce advanced filtering and sorting options in the listings page.
+
+Feedback & Contact
+I hope you enjoy exploring the Biztoso Marketplace Application. I am open to feedback and suggestions. Feel free to reach out via email or LinkedIn. Thank you for your time and consideration!
+
+
 
 
