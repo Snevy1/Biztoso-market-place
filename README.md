@@ -148,7 +148,7 @@ biztoso-marketplace/
 ### 1. **Clone the Repository:**
 ```bash
 git clone https://github.com/yourusername/biztoso-marketplace.git
-cd biztoso-marketplace
+cd Biztoso-market-place
 cd frontend
 Run npm install
 startfrontend npm run dev
